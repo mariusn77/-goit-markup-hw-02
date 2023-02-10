@@ -1,0 +1,89 @@
+body {
+    font-style: normal;
+    font-weight: 400;
+    --background-section: #2F303A;
+
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.93em;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo-link::after {
+    content: "Studio";
+    color: #000000;
+}
+
+.unstyled-list {
+    list-style: none;
+}
+
+.navigation-list li a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.button-list:hover {
+    color: #2196F3;
+}
+
+.card-list {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+}
+
+.card-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.card-description {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.87em;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer,
+.hero-section {
+    background: var(--background-section);
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
