@@ -1,7 +1,12 @@
 body {
+    font-family: "roboto";
     font-style: normal;
     font-weight: 400;
     --background-section: #2F303A;
+    --color: #2196F3;
+    --text-color: #212121;
+    ;
+
 
 }
 
@@ -11,31 +16,28 @@ body {
     font-size: 26px;
     line-height: 1.93em;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--color);
     text-decoration: none;
 }
 
 .logo-link::after {
     content: "Studio";
-    color: #000000;
+    color: var(--text-color);
 }
 
 .unstyled-list {
     list-style: none;
 }
 
-.navigation-list li a {
-    font-family: 'Roboto';
+.navigation-list a {
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
-}
+    color: var(--text-color);
 
-.button-list:hover {
-    color: #2196F3;
+
 }
 
 .card-list {
@@ -45,16 +47,16 @@ body {
 }
 
 .card-title {
-    font-family: 'Roboto';
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2em;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--text-color);
 }
 
 .card-description {
-    font-family: 'Roboto';
+
     font-size: 16px;
     line-height: 1.87em;
     letter-spacing: 0.03em;
@@ -66,24 +68,49 @@ body {
     background: var(--background-section);
 }
 
-.link:hover {
-    color: #2196F3;
+.button-list:hover,
+.link:hover,
+.footer-link:hover {
+    color: var(--color);
 }
 
 .button {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62em;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    background: #F5F4FA;
+    color: var(--text-color);
     cursor: pointer;
     border: none;
 }
 
 .button:hover {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--color);
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+
+.header-navigation {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+#footer-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
