@@ -16,11 +16,12 @@ body {
     letter-spacing: 0.03em;
     color: var(--color);
     text-decoration: none;
+
 }
 
-.logo-link::after {
+.logo-link-header::after {
     content: "Studio";
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 
 .unstyled-list {
@@ -89,7 +90,7 @@ body {
     background-color: var(--color);
 
 }
-}
+
 
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
@@ -125,4 +126,9 @@ a {
     line-height: 1.14em;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-link-footer::after {
+    content: "Studio";
+    color: #FFFFFF;
 }
